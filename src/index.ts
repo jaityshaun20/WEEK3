@@ -1,3 +1,5 @@
+///ASSIGNMENT CODE BELOW CLASS EXAMPLES
+
 /*let user= {
     name: 'Jai',
     age: 18
@@ -16,13 +18,8 @@ class User{
         this.birthdate = birthdate;
     }
 }
-let user1=new User('Jai',new Date('2004-02-15'));*/
-
-
-
-
-
-/* function logObject(dog: Dog){
+let user1=new User('Jai',new Date('2004-02-15'));
+function logObject(dog: Dog){
     console.log(dog);
 }
 class Dog{
@@ -36,6 +33,7 @@ class Dog{
 }
 let dog1= new Dog('jack',2)
 logObject(dog1);*/
+
 function evenOrOdd(sport:Sport){
     if (sport.activePlayers %2 ===0){
         console.log('Even number of Active Players')
